@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta charset="UTF-8">
+    <title>Layout with menu</title>
+    <!-- Linking Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+          integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+</head>
+
+<!-- Linking jQuery -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+<!-- Linking plugin Popper -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+
+<!-- Linking Bootstrap JS -->
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+</head>
+<body>
+<!-- Menu-->
+
+<nav class="navbar navbar-expand-lg navbar-dark" style="background-color:teal">
+
+
+    <a class="navbar-brand" href="/"><strong> www.coolsite.ua | </strong></a>
+    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-main">
+        <span class="icon-bar"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbar-main">
+
+
+            <ul class="navbar-nav mr-auto">
+                <!-- It's better to be  replaced with Twig loop -->
+                <li class="nav-item active">
+                    <a class="nav-link" href="…">
+                        <strong>ГОЛОВНА </strong>
+                    </a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="…">
+                        <strong>РЕСУРСИ </strong>
+                    </a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="…">
+                        <strong>ПРО НАС </strong>
+                    </a>
+                </li>
+
+
+            </ul>
+
+    </div>
+    <div align="right">
+        <strong>
+            <a href="..." style="color: white">ENG</a>
+            &nbsp;&nbsp;
+            <a href="..." style="color: white">UKR</a></strong>
+    </div>
+
+</nav>
+
+<!-- Main part -->
+<br/>
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-4">
+            Це є ліва частина сторінки. Тут часто розміщують перелік рубрик,
+            фільтри для пошуку інформації на сайті та інші безумовно корисні файноти
+        </div>
+        <div class="col-5">
+            <div>
+                <h3>
+                    <strong>
+                        ГОЛОВНА ЧАСТИНА
+                    </strong>
+
+                </h3>
+                Типове місце для розміщення основного контенту, заради якого вельмишановний відвідувач
+                взагалі прийшов на сторінку. Якщо не надати йому потрібну інформацію,
+                він може взагалі образитися та піти геть.
+            </div>
+        </div>
+        <div class="col-3">
+            Це є права частина сторінки. Можуть розміщуватися, наприклад, форми для реєстрації
+            та заявок (ліди).
+        </div>
+
+
+    </div>
+
+</div>
+
+
+</body>
+</html>
